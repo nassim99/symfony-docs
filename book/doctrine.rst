@@ -9,7 +9,7 @@ involves persisting and reading information to and from a database. Although
 the Symfony full-stack framework doesn't integrate any ORM by default,
 the Symfony Standard Edition, which is the most widely used distribution,
 comes integrated with `Doctrine`_, a library whose sole goal is to give
-you powerful tools to make this easy. In this chapter, you'll learn the
+you powerful tools to make this easy. aIn this chapter, you'll learn the
 basic philosophy behind Doctrine and see how easy working with a database
 can be.
 
@@ -1038,7 +1038,7 @@ methods for you:
 
 .. code-block:: bash
 
-    $ php app/console doctrine:generate:entities Acme
+    $ php app/console doctrine:generate:entities AppBundle
 
 Ignore the Doctrine metadata for a moment. You now have two classes - ``Category``
 and ``Product`` with a natural one-to-many relationship. The ``Category``
